@@ -1,0 +1,97 @@
+body{
+	font-size: 15px;
+	background: #f4f4f4;
+}
+.add-btn{
+	margin-top: 10px;
+}
+
+table tr th, table tr td{
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+}
+ul li{
+	list-style: none;
+	font-size: 15px;
+	vertical-align: middle;
+}
+.button-group{
+	margin: auto;
+	text-align: center
+}
+
+.button-group ul li{
+	display: inline-block;
+}
+
+.button-group a{
+	margin: auto;
+}
+.delete-btn{
+	margin-bottom: 0px;
+	border-radius: 3px!important;
+}
+
+#addContactBtn, #addSubmitBtn, #modifSubmitBtn{
+	background-color: #1abc9c;
+}
+
+#addContactBtn:hover, #addSubmitBtn:hover, #modifSubmitBtn:hover, #addContactBtn:active, #addSubmitBtn:active, #modifSubmitBtn:active, #addContactBtn:focus, #addSubmitBtn:focus, #modifSubmitBtn:focus{
+	background-color: #23d2af;
+	transition: 0.5s ease-in-out;
+}
+
+h1{
+	text-align: center;
+	font-weight: 600;
+}
+
+#loaderImage{
+	display: none;
+	position: absolute;
+	top:120px;
+	left:50%;
+	width: 100px;
+	margin: 50px auto 50px auto;
+}
+
+#mainBodyContainer{
+	 margin-top: 10vh;
+}
+
+#contactNameContainer{
+	float:left;
+	margin-right: 32px;
+}
+
+#contactNameContainer td{
+	font-size: 16px;
+}
+
+#contactNameContainer td:hover, #contactNameContainer td:focus, #contactNameContainer td:active{
+	background-color:  #1abc9c2e;
+	transition: all 0.5s ;
+}
+
+
+.container-info-row{
+	display: none;
+}
+
+.th-full, .button .small{
+    background-color: #1abc9c;
+}
+
+
+.th-full{
+	text-align: center;
+	font-size: 22px;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.contact-actif{
+	display: table-row!important;
+}
